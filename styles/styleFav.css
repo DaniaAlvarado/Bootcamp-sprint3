@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+body{
+    width: 100%;
+    padding: 50px 50px 50px 50px;   
+    background: #FAFAFA;
+}
+h1{
+    text-align: center;
+    color: #2A41E8;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px 50px 0px;
+    gap: 50px;
+}
+
+#main .containerCards section figure img{
+    width: 300px;
+    height: 200px;
+}
+#main .containerCards section{
+    line-height: 20px;
+    background-color: white;
+}
